@@ -4,6 +4,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+// function method and if else statement used 
 function addTask(){
     if(inputBox.value === ''){
         alert("You must write something!");
@@ -20,7 +21,7 @@ function addTask(){
 }
 
 
-// checked and store data in localstorage disk
+// checked and store data in localstorage disk -- studied in online resournce
 
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){

@@ -59,7 +59,7 @@ input {
     background: transparent;
     padding: 10px;
     font-size: 1rem;
-    min-width: 0; /* Makes input shrinkable on smaller screens */
+    min-width: 0; 
 }
 
 button {
